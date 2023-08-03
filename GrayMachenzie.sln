@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RacingGame", "RacingGame\Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectoryFileSize", "DirectoryFileSize\DirectoryFileSize.csproj", "{63C5055A-D003-4543-B995-C1DE6313709B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts", "Contacts\Contacts.csproj", "{E4A742C7-B666-42FA-B52B-BED9F6063D8B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contacts2", "Contacts\Contacts2.csproj", "{E4A742C7-B666-42FA-B52B-BED9F6063D8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsMVC", "ContactsMVC\ContactsMVC.csproj", "{D95A8A1E-8E46-4B3A-9278-F7DBBC5A62BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +29,15 @@ Global
 		{E4A742C7-B666-42FA-B52B-BED9F6063D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4A742C7-B666-42FA-B52B-BED9F6063D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4A742C7-B666-42FA-B52B-BED9F6063D8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95A8A1E-8E46-4B3A-9278-F7DBBC5A62BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95A8A1E-8E46-4B3A-9278-F7DBBC5A62BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95A8A1E-8E46-4B3A-9278-F7DBBC5A62BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95A8A1E-8E46-4B3A-9278-F7DBBC5A62BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F490928-992E-4E1D-B986-16ED1BDDE361}
 	EndGlobalSection
 EndGlobal
