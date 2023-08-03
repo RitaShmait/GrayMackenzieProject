@@ -1,0 +1,10 @@
+﻿<Properties StartupConfiguration="{4D5CF6FC-BBA0-439D-B2DA-D359AFF97B72}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.ItemProperties.RacingGame PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

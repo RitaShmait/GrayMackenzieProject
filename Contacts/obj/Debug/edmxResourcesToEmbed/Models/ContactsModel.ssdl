@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GrayMachenzieModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'GrayMachenzie.dbo.Contact' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Contact">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="FirstName" />
+      <PropertyRef Name="LastName" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="PhoneNumber" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="GrayMachenzieModelStoreContainer">
+    <EntitySet Name="Contact" EntityType="Self.Contact" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Contact].[Id] AS [Id], 
+    [Contact].[FirstName] AS [FirstName], 
+    [Contact].[LastName] AS [LastName], 
+    [Contact].[Email] AS [Email], 
+    [Contact].[PhoneNumber] AS [PhoneNumber]
+    FROM [dbo].[Contact] AS [Contact]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
